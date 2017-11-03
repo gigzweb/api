@@ -1,0 +1,26 @@
+{
+  "name": "movieanalyst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "auth0-api-jwt-rsa-validation": "0.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "express-myconnection": "^1.0.4",
+    "file-system": "^2.2.2",
+    "jade": "~1.11.0",
+    "logger": "0.0.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.11.1",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "^2.4.5"
+  }
+}
